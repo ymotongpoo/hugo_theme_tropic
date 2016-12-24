@@ -62,8 +62,9 @@
       <main>
         {{ block "main" . }}
         {{ end }}
-        <amp-ads type="adsense" data-ad-client="ca-pub-7999197875905972" data-ad-slot="6357667332" width="300" height="250"></amp-ads>
       </main>
+
+      <amp-ads type="adsense" data-ad-client="ca-pub-7999197875905972" data-ad-slot="6357667332" width="300" height="250"></amp-ads>
 
       <footer class="l-footer">
         <p>{{ with .Site.Copyright }}{{ . | safeHTML }}{{ else }}&copy; {{ .Site.Title }}{{ end }}</p>
